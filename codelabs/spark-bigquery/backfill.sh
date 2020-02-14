@@ -49,7 +49,7 @@ do
         --cluster ${CLUSTER_NAME} \
         --region=us-east1 \
         --driver-log-levels root=FATAL \
-        gs://https://github.com/ReMinD1212/DataProc/tree/master/codelabs/spark-bigquery/backfill.py \
+        gs://github.com/ReMinD1212/DataProc/tree/master/codelabs/spark-bigquery/backfill.py \
         -- ${year} ${month} ${BUCKET_NAME} &
     sleep 5
 
